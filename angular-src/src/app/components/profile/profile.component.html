@@ -1,0 +1,14 @@
+<div *ngIf="user">
+  <div class="card h-100">
+    <div class="card-header">
+      <h2 class="card-title  text-center">{{user.name}}</h2>
+    </div>
+    <div class="card-body">
+      <ul class="card-text list-group">
+        <li class="list-group-item">Name: {{user.name}}</li>
+        <li class="list-group-item">Email: {{user.email}}</li>
+        <li class="list-group-item">Username: {{user.username}}</li>
+      </ul>
+    </div>
+  </div>
+</div>

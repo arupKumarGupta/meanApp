@@ -1,0 +1,56 @@
+<div class="row">
+  <div class="col-md-12 text-center mt-3 mb-3">
+    <div class="card bg-dark">
+      <div class="card-body text-white">
+        <h1 class="card-title">MEAN STACK APP</h1>
+        <p class="card-text">Custom Mean Stack Application.</p>
+      </div>
+      <div class="mb-2" *ngIf="!auth.loggedIn()">
+        <a [routerLink]="['/login']" class="btn btn-primary mr-2">Login</a>
+        <a [routerLink]="['/register']" class="btn btn-success">Register</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+<div style="margin-bottom: 30px;">
+  <div class="row">
+    <div class="col-md-4 ">
+      <div class="card h-100 bg-dark">
+        <img height="180px" src="https://i2.wp.com/blog.eduonix.com/wp-content/uploads/2015/11/Express-JS-101.png?fit=740%2C296&ssl=1"
+          alt="express" class="card-img-top">
+        <div class="card-body">
+          <h3 class="card-title text-white">Express Backend</h3>
+          <p class="card-text  text-white">Express.js, or simply Express, is a web application framework for Node.js, released as free and open-source software
+            under the MIT License. It is designed for building web applications and APIs.</p>
+          <a href="//expressjs.com" class="btn btn-secondary" target="_blank">Learn more</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100 bg-danger">
+        <img height="180px" src="https://cdn-images-1.medium.com/max/1600/1*ByAhY7BtpARVPzkgM6yV1Q.png" alt="express" class="card-img-top">
+        <div class="card-body">
+          <h3 class="card-title text-white">Angular 6</h3>
+          <p class="card-text text-white">Angular is a TypeScript-based open-source front-end web application platform led by the Angular Team at Google
+            and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built
+            AngularJS.
+          </p>
+          <a href="//expressjs.com" class="btn btn-dark" target="_blank">Learn more</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 ">
+      <div class="card h-100 bg-success">
+        <img height="180px" src="https://webassets.mongodb.com/_com_assets/cms/mongodb-for-giant-ideas-bbab5c3cf8.png" alt="express"
+          class="card-img-top">
+        <div class="card-body">
+          <h3 class="card-title text-white">MongoDB</h3>
+          <p class="card-text text-white">MongoDB is a free and open-source cross-platform document-oriented database program. Classified as a NoSQL database
+            program, MongoDB uses JSON-like documents with schemas</p>
+          <a href="//expressjs.com" class="btn btn-dark" target="_blank">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
